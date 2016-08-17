@@ -26,30 +26,40 @@ tags-input {
     }
 
     .tag-item {
-      margin: 2px;
-      padding: 0 5px;
-      display: inline-block;
-      float: left;
-      font: $tag-font;
-      height: $tag-height;
-      line-height: $tag-height - 1px;
-      border: $tag-border;
-      border-radius: $tag-border-radius;
-      @include gradient($tag-color);
+	  margin: 2px;  
+	  display: inline-block;
+	  float: left;  
+	  font-size: 16px;
+	  height: 38px;
+	  line-height: 1.6;
+	  border: 1px solid transparent;
+	  border-radius: 20px;
+	  background-color: rgb(0, 190, 243);
+	  color: #fff;
+	  text-align: center;
+	  font-weight: normal;
+	  font-family: inherit;
+	  padding: 0.375em 1.125em;
 
       &.selected {
         @include gradient($tag-color-selected);
       }
+	  
+	  .div-remove-btn{
+		margin: 0 -8px 0 3px;
+		display: inline-block;
+	  }
 
       .remove-button {
-        margin: 0 0 0 5px;
-        padding: 0;
-        border: none;
-        background: none;
-        cursor: pointer;
-        vertical-align: middle;
-        font: $remove-button-font;
-        color: $remove-button-color;
+	  margin: 0 0 0 10px;
+	  padding-left: 10px;
+	  border-left: 1px solid #fff;
+	  background: none;
+	  cursor: pointer;
+	  vertical-align: middle;
+	  font-size: 16px;
+	  font-family: inherit;
+	  color: #fff;
 
         &:active {
           color: $remove-button-color-active;
@@ -58,14 +68,15 @@ tags-input {
     }
 
     .input {
-      border: 0;
-      outline: none;
-      margin: 2px;
-      padding: 0;
-      padding-left: 5px;
-      float: left;
-      height: $tag-height;
-      font: $input-font;
+	  border: 0;
+	  outline: none;
+	  padding-top: 12px;
+	  margin: 3px;
+	  padding-left: 5px;
+	  float: left;
+	  height: 26px;
+	  font-size: 16px;
+	  font-family: inherit;
 
       &.invalid-tag {
         color: $tag-color-invalid;
