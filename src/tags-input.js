@@ -186,7 +186,7 @@ tagsInput.directive('tagsInput', function($timeout, $document, $window, $q, tags
                 type: [String, 'text', validateType],
                 placeholder: [String, 'Add a tag'],
                 tabindex: [Number, null],
-                removeTagSymbol: [String, String.fromCharCode(215)],
+                removeTagSymbol: [String, '✖'],
                 replaceSpacesWithDashes: [Boolean, true],
                 minLength: [Number, 3],
                 maxLength: [Number, MAX_SAFE_INTEGER],
