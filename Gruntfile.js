@@ -18,8 +18,6 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         bowerDirectory: '../ngTagsInput-bower',
         bowerFile: '<%= bowerDirectory %>/bower.json',
-        websiteDirectory: '../ngTagsInput-website',
-        websiteConfigFile: '<%= websiteDirectory %>/_config.yml',
 
         files: {
             js: {
@@ -124,10 +122,7 @@ module.exports = function(grunt) {
         'copy:bower',
         'update-bower-version',
         'shell:git_bower',
-        'dgeni',
-        'copy:website',
-        'update-website-version',
-        'shell:git_website'
+        'dgeni'
     ]);
 
     grunt.registerTask('default', ['pack']);
