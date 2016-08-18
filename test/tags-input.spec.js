@@ -873,7 +873,7 @@ describe('tags-input directive', function() {
             compile();
 
             // Assert
-            expect(isolateScope.options.removeTagSymbol).toBe(String.fromCharCode(215));
+            expect(isolateScope.options.removeTagSymbol).toBe('✖');
         });
     });
 
