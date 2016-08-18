@@ -5,7 +5,7 @@
  * Copyright (c) 2013-2016 Michael Benford
  * License: MIT
  *
- * Generated at 2016-08-18 12:29:07 -0200
+ * Generated at 2016-08-18 14:08:15 -0200
  */
 (function() {
 'use strict';
@@ -36,6 +36,7 @@ var tagsInput = angular.module('ngTagsInput', []);
 'use strict';
 
 /**
+ * lines 35 , 198 modified
  * @ngdoc directive
  * @name tagsInput
  * @module ngTagsInput
