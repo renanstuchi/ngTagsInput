@@ -5,16 +5,16 @@
   },
   "name": "ng-tags-input",
   "prettyName": "ngTagsInput",
-  "version": "3.1.2",
+  "version": "3.1.1",
   "description": "Tags input directive for AngularJS",
   "license": "MIT",
-  "homepage": "https://github.com/renanstuchi/ngTagsInput.git",
+  "homepage": "https://github.com/mbenford/ngTagsInput.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/renanstuchi/ngTagsInput.git"
+    "url": "https://github.com/mbenford/ngTagsInput.git"
   },
   "bugs": {
-    "url": "https://github.com/renanstuchi/ngTagsInput.git"
+    "url": "https://github.com/mbenford/ngTagsInput.git"
   },
   "keywords": [
     "angular",
