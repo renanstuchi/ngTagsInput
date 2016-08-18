@@ -5,7 +5,7 @@
  * Copyright (c) 2013-2016 Michael Benford
  * License: MIT
  *
- * Generated at 2016-08-18 17:03:55 -0200
+ * Generated at 2016-08-18 17:29:32 -0200
  */
 (function() {
 'use strict';
@@ -221,7 +221,7 @@ tagsInput.directive('tagsInput', ["$timeout", "$document", "$window", "$q", "tag
                 type: [String, 'text', validateType],
                 placeholder: [String, 'Add a tag'],
                 tabindex: [Number, null],
-                removeTagSymbol: [String, String.fromCharCode(215)],
+                removeTagSymbol: [String, '✖'],
                 replaceSpacesWithDashes: [Boolean, true],
                 minLength: [Number, 3],
                 maxLength: [Number, MAX_SAFE_INTEGER],
