@@ -9,14 +9,13 @@ tags-input {
     overflow: hidden;
     word-wrap: break-word;
     cursor: text;
-    background-color: $tags-bgcolor;
-    border: $tags-border;
-    box-shadow: $tags-border-shadow;
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
     height: 100%;
 
     &.focused {
-      outline: none;
-      @include box-shadow($tags-outline-box-shadow);
+      outline: none;      
     }
 
     .tag-list {
