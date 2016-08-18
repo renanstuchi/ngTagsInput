@@ -56,7 +56,7 @@ describe('tags-input directive', function() {
     }
 
     function getRemoveButton(index) {
-        return getTag(index).find('ti-tag-item > ng-include > a').first();
+        return getTag(index).find('ti-tag-item > ng-include > div > a').first();
     }
 
     function getInput() {
@@ -766,7 +766,7 @@ describe('tags-input directive', function() {
                 compile();
 
                 // Assert
-                expect(isolateScope.options.pasteSplitPattern).toEqual(/,/);
+                expect(isolateScope.options.pasteSplitPattern).toEqual(/[ ?,?;?\n?\r?]+/g);
             });
 
             it('splits the pasted text into tags using the provided pattern', function() {
