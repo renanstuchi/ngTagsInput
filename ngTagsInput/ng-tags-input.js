@@ -1,11 +1,11 @@
 /*!
- * ngTagsInput v3.1.2
- * https://github.com/renanstuchi/ngTagsInput.git
+ * ngTagsInput v3.1.1
+ * https://github.com/mbenford/ngTagsInput.git
  *
  * Copyright (c) 2013-2016 Michael Benford
  * License: MIT
  *
- * Generated at 2016-08-18 15:10:44 -0200
+ * Generated at 2016-08-18 17:03:55 -0200
  */
 (function() {
 'use strict';
@@ -1216,7 +1216,7 @@ tagsInput.run(["$templateCache", function($templateCache) {
 
 
   $templateCache.put('ngTagsInput/tag-item.html',
-    "<span ng-bind=\"$getDisplayText()\"></span><div class=\"\\&quot;div-remove-btn\\&quot;\"><a class=\"remove-button\" ng-click=\"$removeTag()\" ng-bind=\"::$$removeTagSymbol\"></a></div>"
+    "<span ng-bind=\"$getDisplayText()\"></span><div class=\"div-remove-btn\"><a class=\"remove-button\" ng-click=\"$removeTag()\" ng-bind=\"::$$removeTagSymbol\"></a></div>"
   );
 
 
